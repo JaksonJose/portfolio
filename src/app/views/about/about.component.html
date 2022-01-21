@@ -1,0 +1,12 @@
+<section id="about">
+  <div>
+    <h1>{{ "about.title" | translate }}</h1>
+    <p>{{ "about.about" | translate }}</p>
+  </div>
+</section>
+
+<section>
+  <app-card [cardInfo]="card" translate *ngFor="let card of cards"></app-card>
+</section>
+
+

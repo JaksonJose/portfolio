@@ -1,0 +1,35 @@
+{
+  "header": {
+    "language" :{
+      "english": "Inglês",
+      "portuguese": "Português"
+    },
+    "menu": {
+      "about": "Sobre",
+      "contact": "Contato",
+      "home": "Home",
+      "Projects": "Projetos"
+    }
+  },
+
+  "home": {
+    "title": "Backend & Frontend Dev",
+    "subtitle": "Eu desenvolvo aplicativos Web / Mobile e amo o que eu faço."
+  },
+
+  "about": {
+    "title": "Olá! Me chamo Jakson José.",
+    "about": "Trabalho de forma remota para uma empresa internacional. Durante minha jornada nesta empresa eu contribuí com uma equipe para a manutenção dos aplicativos e criar novas funcionalidades. Eu sou autodidata, sempre melhorando minhas habilidade, vivendo um dia de cada vez."
+  },
+
+  "cards": [
+    {
+      "title": "Dev Frontend",
+      "paragraph": "Gosto de desenvolver web/mobile aplicativos do zero e dar vida a ideias."
+    },
+    {
+      "title": "Dev Backend",
+      "paragraph": "Gosto de coisas de Backend."
+    }
+  ]
+}

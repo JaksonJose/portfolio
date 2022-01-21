@@ -1,0 +1,32 @@
+.card {
+  width: 400px;
+  padding: 70px 40px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 1px rgb(204, 204, 204);
+
+  div {
+    text-align: center;
+
+    & > figure {
+
+      & > img {        
+        height: 80px;
+        width: auto;
+      }
+    }
+
+    & > h1 {
+      padding-bottom: 1.1rem;
+    }
+  }
+
+  div:last-of-type {
+    padding-top: 2.6rem;
+
+    img {
+      width: 60px;
+      padding: 20px 10px;
+    }
+  }
+}

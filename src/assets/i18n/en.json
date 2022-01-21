@@ -1,0 +1,35 @@
+{
+  "header": {
+    "language" :{
+      "english": "English",
+      "portuguese": "Portuguese"
+    },
+    "menu": {
+      "about": "About",
+      "contact": "Contact",
+      "home": "Home",
+      "Projects": "Projects"
+    }
+  },
+
+  "home": {
+    "title": "Backend & Frontend Dev",
+    "subtitle": "I code Web / Mobile apps and love what I do"
+  },
+
+  "about": {
+    "title": "Hello! I'm Jakson José.",
+    "about": "I've been working remotely for an international company. During my journey in this company I've collaborated with a skilled team to mantain many projects and creating new features. I'm quite self-taught, aways improving my skills, living one day at a time."
+  },
+
+  "cards": [
+    {
+      "title": "Frontend Dev",
+      "paragraph": "I enjoy coding web apps from scratch and bring ideas to life."
+    },
+    {
+      "title": "Backend Dev",
+      "paragraph": "I enjoy backend things "
+    }
+  ]
+}

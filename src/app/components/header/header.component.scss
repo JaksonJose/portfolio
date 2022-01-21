@@ -1,0 +1,98 @@
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: white;
+  box-shadow: 2px 3px 5px rgb(204, 204, 204);
+
+  // title and subtitle setting
+  & > .header-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+
+  & > span {
+      font-size: 1.5rem;
+
+      &:last-of-type {
+        font-size: 1rem;
+        align-self: flex-end;
+      }
+    } 
+  }
+
+  // menu configuration
+  & > nav {
+    div:first-of-type {
+      display: flex;
+      align-items: center;
+
+      button {
+        display: none;
+      }
+
+      ul{
+        display: flex;
+        list-style: none;
+
+        li {
+          margin: 0 10px; 
+
+          a {
+            color: #141c3a;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover {
+              color: #7510F7;
+              transition: 0.4s ease;
+            }
+          }
+        }
+      }
+    
+      select {
+        outline: none;
+        width: 100%;
+        height: 45px;
+        border: 1px solid #CCC;
+        border-radius: 5px;
+        background: white;
+
+        &:checked, &focus, &:active {
+          border: 2px solid #7510F7;
+        }
+      }
+    }
+
+    // hide burger menu button
+    .mobile-menu {
+      display: none;
+    }
+  } 
+}
+
+
+@media only screen and (max-width: 620px) {
+  header {
+    justify-content: space-between;
+    padding: 20px 40px;
+
+    & > nav {
+      div:first-of-type {
+        display: none;
+      }
+
+    // show burger menu button
+      .mobile-menu {
+        display: flex;
+      }
+    }
+  }
+}

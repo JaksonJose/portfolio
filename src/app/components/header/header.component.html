@@ -1,0 +1,31 @@
+<header>
+  <!-- The title and website logo -->
+  <div class="header-title">
+    <span><a hrf="#">Jakson José</a></span>      
+    <span><a hrf="#">FullStack Dev</a></span>
+  </div>
+
+  <!-- The menu for wide screen -->
+  <nav class="nav-menu">
+    <div class="menu-container">
+      <button type="button" arial-label="close">X</button>
+
+      <ul>
+        <li><a href="#home">{{ "header.menu.home" | translate }}</a></li>
+        <li><a href="#about">{{ "header.menu.about" | translate }}</a></li>
+        <li><a href="#portolio">{{ "header.menu.portfolio" | translate }}</a></li>
+        <li><a href="#contact">{{ "header.menu.contact" | translate }}</a></li>
+      </ul>
+
+      <select (change)="selectedLanguage($event)">
+        <option value="en">English</option>
+        <option value="pt">Portuguese</option>
+      </select>
+    </div> 
+  
+    <!-- burger icon for mobile menu -->
+    <div class="mobile-menu">
+      <img src="./assets/img/menu_mobile.svg" />
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,14 @@
+<div class="card">
+  <div>
+    <figure>
+      <img src="/assets/img/developper.svg" alt="">
+    </figure>
+    <h1>{{ cardInfo.title }}</h1>
+    <p>{{ cardInfo.paragraph }}</p>
+  </div>
+
+  <div>
+    <h2>My stacks:</h2>
+    <img src="/assets/img/{{ image }}.svg" *ngFor="let image of images"/>
+  </div>
+</div>
