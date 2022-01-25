@@ -1,21 +1,10 @@
 section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding-top: 8rem;
 
-  & > div:first-of-type {
-    display: flex;
-    padding: 20px;
-    overflow: hidden;
-    
-    & > img {
-      width: 80%;
-      border-radius: 100%;
-      box-shadow: 5px 5px 10px #7510F7;
-    }
-  }
-
-  & > div:last-of-type {
+  & > div {
     h1 {
       font-size: 3rem !important;
       font-weight: 700;
@@ -31,6 +20,33 @@ section {
       text-align: center;
       margin-block-start: 0.83em;
       margin-block-end: 0.83em;
+    }
+  }
+  
+  & > figure {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+
+    & > img {
+      width: 200px;
+      border-radius: 100%;
+      box-shadow: 5px 5px 10px #7510F7;
+    }
+  }
+}
+
+@media only screen and (max-width: 620px)  {
+  section {  
+    & > div {
+      h1 {
+        font-size: 2rem !important;
+      }
+
+      h2 {
+        font-size: 1rem !important;
+      }
     }
   }
 }

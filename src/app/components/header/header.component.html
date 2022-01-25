@@ -7,16 +7,16 @@
 
   <!-- The menu for wide screen -->
   <nav class="nav-menu">
-    <div class="menu-container">
-      <button type="button" arial-label="close">X</button>
+    <div class="menu-container" [style.display]="isMenu ? 'flex' : 'none'">
+      <button type="button" arial-label="close" (click)="openMenu()">X</button>
 
       <ul>
         <li><a href="#home">{{ "header.menu.home" | translate }}</a></li>
         <li><a href="#about">{{ "header.menu.about" | translate }}</a></li>
-        <li><a href="#portolio">{{ "header.menu.projects" | translate }}</a></li>
+        <li><a href="#projects">{{ "header.menu.projects" | translate }}</a></li>
         <li><a href="#contact">{{ "header.menu.contact" | translate }}</a></li>
       </ul>
-
+      
       <select (change)="selectedLanguage($event)">
         <option value="en">English</option>
         <option value="pt">Portuguese</option>
@@ -24,7 +24,7 @@
     </div> 
   
     <!-- burger icon for mobile menu -->
-    <div class="mobile-menu">
+    <div class="mobile-menu" (click)="openMenu()">
       <img src="./assets/img/menu_mobile.svg" />
     </div>
   </nav>

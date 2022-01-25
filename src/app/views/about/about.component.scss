@@ -4,7 +4,7 @@ section:first-of-type {
   justify-content: center;
   align-items: center;
   background-color: #7510F7;
-  padding: 9rem 1.5rem 18rem 9rem;
+  padding: 9rem 9% 18rem 9%;
 
 
   div {
@@ -32,5 +32,6 @@ section:first-of-type {
 section:last-of-type {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: -14rem;
 }
