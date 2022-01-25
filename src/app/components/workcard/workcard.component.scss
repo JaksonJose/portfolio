@@ -1,0 +1,27 @@
+#workcard {
+  display: flex;
+  align-items: center;
+  width: 45rem;
+  padding: 2rem;
+  border: 1px solid #ccc;
+
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 1px rgb(204, 204, 204);
+
+  & > figure {
+    & > img {
+      width: 200px;
+    }
+  }
+
+  & > div {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    text-align: justify;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    border-left: 1px solid #ccc;
+  }
+}

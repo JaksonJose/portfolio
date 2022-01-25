@@ -11,6 +11,8 @@ import { HomeComponent } from './views/home/home.component';
 import { AboutComponent } from './views/about/about.component';
 import { CardComponent } from './components/card/card.component';
 import { CasestudiesComponent } from './views/casestudies/casestudies.component';
+import { WorksComponent } from './views/works/works.component';
+import { WorkcardComponent } from './components/workcard/workcard.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -23,7 +25,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     AboutComponent,
     CardComponent,
-    CasestudiesComponent
+    CasestudiesComponent,
+    WorksComponent,
+    WorkcardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,14 @@
+#works {
+  padding-top: 2.5rem;
+
+  & > h1 {
+    text-align: center;
+  }
+
+  & > #card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+  }
+}
