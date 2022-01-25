@@ -8,7 +8,7 @@
       "about": "Sobre",
       "contact": "Contato",
       "home": "Home",
-      "Projects": "Projetos"
+      "projects": "Projetos"
     }
   },
 
@@ -19,7 +19,7 @@
 
   "about": {
     "title": "Olá! Me chamo Jakson José.",
-    "about": "Trabalho de forma remota para uma empresa internacional. Durante minha jornada nesta empresa eu contribuí com uma equipe para a manutenção dos aplicativos e criar novas funcionalidades. Eu sou autodidata, sempre melhorando minhas habilidade, vivendo um dia de cada vez."
+    "about": "Trabalho de forma remota para uma empresa internacional. Durante minha jornada nesta empresa eu contribuí na manutenção de aplicativos e criação de novas funcionalidades. Como autodidata eu sempre busco melhorar minhas habilidade, vivendo um dia de cada vez."
   },
 
   "cards": [

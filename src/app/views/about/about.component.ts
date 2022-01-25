@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { observable } from 'rxjs';
 
 @Component({
   selector: 'app-about',

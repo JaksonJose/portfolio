@@ -8,7 +8,7 @@
       "about": "About",
       "contact": "Contact",
       "home": "Home",
-      "Projects": "Projects"
+      "projects": "Projects"
     }
   },
 
@@ -19,7 +19,7 @@
 
   "about": {
     "title": "Hello! I'm Jakson José.",
-    "about": "I've been working remotely for an international company. During my journey in this company I've collaborated with a skilled team to mantain many projects and creating new features. I'm quite self-taught, aways improving my skills, living one day at a time."
+    "about": "I've been working remotely for an international company. During my journey in this company I've collaborated with a skilled team to mantain many projects and creating new features. As self-taught I've always been improving my skills, living one day at a time."
   },
 
   "cards": [

@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header';
 import { HomeComponent } from './views/home/home.component';
 import { AboutComponent } from './views/about/about.component';
 import { CardComponent } from './components/card/card.component';
+import { CasestudiesComponent } from './views/casestudies/casestudies.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -21,7 +22,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    CardComponent
+    CardComponent,
+    CasestudiesComponent
   ],
   imports: [
     BrowserModule,
